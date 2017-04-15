@@ -1,0 +1,111 @@
+@import 'scss/font-awesome.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@mixin inline-list {
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+@mixin nav-text-styling {
+	text-decoration: none;
+	color: rgba(255,255,255,.6);
+	font-size: 13px;
+}
+
+@mixin nav-center {
+	position: relative;
+	top: -25%;
+}
+
+nav {
+	display: block;
+	background-color: #131313;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 32px;
+
+	#nav-left {
+		@include nav-center;
+		float: left;
+		margin-left: -20px;
+
+		li {
+			@include inline-list;
+			margin-left: 12px;
+			float: left;
+
+			a {
+				@include nav-text-styling;
+			}
+		}
+	}
+
+	#nav-right {
+		@include nav-center;
+		display: inline;
+		float: right;
+
+		li {
+			@include inline-list;
+			margin-right: 12px;
+			float: right;
+
+			a {
+				@include nav-text-styling;
+			}
+		}
+	}
+}
+
+#countdown {
+	display: block;
+	height: 48px;
+
+	div {
+		display: inline;
+		
+		a {
+			font-family: 'Shentox',sans-serif;
+			text-decoration: none;
+			text-transform: uppercase;
+			float: left;
+			color: #AAA;
+			font-size: 100%;
+			font-weight: 500;
+			height: 48px;
+		}
+	}
+
+	#deadline {
+		display: inline;
+		text-align: center;
+		background-color: blue;
+	}
+	
+	#social-media {
+		float: right;
+		display: inline-block;
+		background-color: yellow;
+
+		li {
+			@include inline-list;
+			float: left;
+			margin-left: 11px;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	body:after {
+		content: "Screen width 1024px and up";
+		font-size: 200%;
+		text-align: center;
+		position: fixed;
+		bottom: 50px;
+		width: 100%;
+	}
+} 
