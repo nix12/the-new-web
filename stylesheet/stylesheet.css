@@ -2347,6 +2347,8 @@ nav {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
         font-size: 13px; }
+        nav #nav-left li a:hover {
+          color: white; }
   nav #nav-right {
     position: relative;
     top: -25%;
@@ -2362,13 +2364,22 @@ nav {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
         font-size: 13px; }
+        nav #nav-right li a:hover {
+          color: white; }
 
 #countdown {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 100%;
   display: block;
   height: 48px; }
   #countdown div {
-    display: inline; }
+    display: inline;
+    color: #F42; }
     #countdown div a {
+      position: relative;
+      top: 25%;
       font-family: 'Shentox',sans-serif;
       text-decoration: none;
       text-transform: uppercase;
@@ -2376,21 +2387,43 @@ nav {
       color: #AAA;
       font-size: 100%;
       font-weight: 500;
-      height: 48px; }
-  #countdown #deadline {
-    display: inline;
-    text-align: center;
-    background-color: blue; }
+      height: 48px;
+      margin-left: 15px; }
   #countdown #social-media {
     float: right;
-    display: inline-block;
-    background-color: yellow; }
+    display: inline-block; }
     #countdown #social-media li {
       position: relative;
       list-style: none;
       display: inline;
       float: left;
-      margin-left: 11px; }
+      margin-left: 11px;
+      margin-right: 5px; }
+  #countdown #deadline {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center; }
+    #countdown #deadline span {
+      font-family: "Shentox", sans-serif;
+      font-family: 500;
+      color: #555;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 0 4px; }
+    #countdown #deadline button {
+      border: none;
+      background-color: #0CC;
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 3px;
+      padding: 7px 14px; }
+      #countdown #deadline button:hover {
+        background-color: purple; }
 
 @media only screen and (min-width: 768px) {
   body:after {
