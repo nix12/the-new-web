@@ -2324,6 +2324,10 @@
   overflow: visible;
   clip: auto; }
 
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif; }
+
 nav {
   display: block;
   background-color: #131313;
@@ -2424,6 +2428,130 @@ nav {
       padding: 7px 14px; }
       #countdown #deadline button:hover {
         background-color: purple; }
+
+#main {
+  position: absolute;
+  top: 85px;
+  width: 100%;
+  height: 100%; }
+  #main article {
+    background-image: url(../images/music.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 325px;
+    width: 66%;
+    height: 533px;
+    float: left; }
+    #main article #headline span {
+      color: white;
+      font-weight: 700;
+      font-size: 36px;
+      margin: 0; }
+    #main article #headline div {
+      float: right;
+      display: inline;
+      color: white; }
+    #main article #headline h2 {
+      font-size: 56px;
+      font-weight: 700;
+      font-family: 'Avalon',sans-serif;
+      line-height: 1;
+      color: white;
+      margin: 0; }
+    #main article #headline p {
+      color: gray; }
+  #main #side-story {
+    width: 33%;
+    height: 98%;
+    float: right;
+    display: inline; }
+    #main #side-story #one {
+      background-image: url(../images/keyboard.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 160px;
+      height: 160px;
+      width: 98%;
+      margin: 2.5px; }
+      #main #side-story #one h1 {
+        margin: 0;
+        color: white; }
+      #main #side-story #one h2 {
+        color: white;
+        margin: 0; }
+      #main #side-story #one p {
+        color: gray;
+        font-size: 12px; }
+    #main #side-story #two {
+      background-image: url(../images/capitol.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 160px;
+      height: 160px;
+      width: 98%;
+      margin: 2.5px; }
+      #main #side-story #two h2 {
+        color: white;
+        margin: 0; }
+      #main #side-story #two p {
+        color: gray;
+        font-size: 12px; }
+  #main #latest-stories {
+    position: relative;
+    top: 80%;
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: yellow; }
+    #main #latest-stories a {
+      width: 20%;
+      height: 125px; }
+    #main #latest-stories #first {
+      position: relative;
+      list-style: none;
+      display: inline; }
+      #main #latest-stories #first a {
+        background-repeat: no-repeat;
+        background-size: 300px 150px;
+        background-position: center center;
+        float: left;
+        margin: 20px;
+        background-image: url(../images/apple.jpg);
+        display: block; }
+      #main #latest-stories #first h4 {
+        text-align: justify;
+        width: 20%;
+        float: left; }
+    #main #latest-stories #second {
+      position: relative;
+      list-style: none;
+      display: inline; }
+      #main #latest-stories #second a {
+        background-repeat: no-repeat;
+        background-size: 300px 150px;
+        background-position: center center;
+        float: left;
+        margin: 20px;
+        background-image: url(../images/Burger-King.jpg); }
+    #main #latest-stories #third {
+      position: relative;
+      list-style: none;
+      display: inline; }
+      #main #latest-stories #third a {
+        background-repeat: no-repeat;
+        background-size: 300px 150px;
+        background-position: center center;
+        float: left;
+        margin: 20px;
+        background-image: url(../images/security.jpg); }
+    #main #latest-stories #fourth {
+      position: relative;
+      list-style: none;
+      display: inline; }
+      #main #latest-stories #fourth a {
+        background-repeat: no-repeat;
+        background-size: 300px 150px;
+        background-position: center center;
+        float: left;
+        margin: 20px;
+        background-image: url(../images/shutterstock.jpg); }
 
 @media only screen and (min-width: 768px) {
   body:after {

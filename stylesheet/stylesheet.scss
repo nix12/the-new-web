@@ -24,6 +24,19 @@
 	}
 }
 
+@mixin story {
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-position: center center;
+	float: left;
+	margin: 20px;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
 nav {
 	display: block;
 	background-color: #131313;
@@ -136,6 +149,160 @@ nav {
 
 			&:hover {
 				background-color: purple;
+			}
+		}
+	}
+}
+
+#main {
+	position: absolute;
+	top: 85px;
+	width: 100%;
+	height: 100%;
+
+	article {
+		background-image: url(../images/music.jpg);
+		background-repeat: no-repeat; 
+		background-size: 100% 325px;
+		width: 66%;
+		height: 533px;
+		float: left;
+
+		#headline {
+
+			span {
+				color: white;
+				font-weight: 700;
+				font-size: 36px;
+				margin: 0;
+			}
+
+			div {
+				float: right;
+				display: inline;
+				color: white;
+			}
+			
+			h2 {
+				font-size: 56px;
+				font-weight: 700;
+				font-family: 'Avalon',sans-serif;
+				line-height: 1;
+				color: white;
+				margin: 0;
+			}
+
+			p {
+				color: gray;
+			}
+		}
+	}
+
+	#side-story {
+		width: 33%;
+		height: 98%;
+		float: right;
+		display: inline;
+
+		#one {
+			background-image: url(../images/keyboard.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 160px;
+			height: 160px;
+			width: 98%;
+			margin: 2.5px;
+
+			h1 {
+				margin: 0;
+				color: white;
+			}
+
+			h2 {
+				color: white;
+				margin: 0;
+			}
+
+			p {
+				color: gray;
+				font-size: 12px;
+			}
+		}
+
+		#two {
+			background-image: url(../images/capitol.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 160px;
+			height: 160px;
+			width: 98%;
+			margin: 2.5px;
+
+			h2 {
+				color: white;
+				margin: 0;
+			}
+
+			p {
+				color: gray;
+				font-size: 12px;
+			}
+		}
+	}
+
+	#latest-stories {
+		position: relative;
+		top: 80%;
+		width: 100%;
+		height: 500px;
+		float: left;
+		background-color: yellow;
+
+		a {
+			width: 20%;
+			height: 125px;
+		}
+
+		#first {
+			@include inline-list;
+
+			a {
+				@include story;
+				background-image: url(../images/apple.jpg);
+				display: block;
+			}
+
+
+			h4 {
+				text-align: justify;
+				width: 20%;
+				// display: block;
+				float: left;
+			}
+		}
+
+		#second {
+			@include inline-list;
+
+			a {
+				@include story;
+				background-image: url(../images/Burger-King.jpg);
+			}
+		}
+
+		#third {
+			@include inline-list;
+
+			a {
+				@include story;
+				background-image: url(../images/security.jpg);
+			}
+		}
+
+		#fourth {
+			@include inline-list;
+
+			a {
+				@include story;
+				background-image: url(../images/shutterstock.jpg);
 			}
 		}
 	}
