@@ -2327,6 +2327,8 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif; }
+  body a {
+    text-decoration: none; }
 
 nav {
   display: block;
@@ -2439,7 +2441,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 100% 325px;
     width: 66%;
-    height: 533px;
+    height: 350px;
     float: left; }
     #main article #headline span {
       color: white;
@@ -2461,7 +2463,7 @@ nav {
       color: gray; }
   #main #side-story {
     width: 33%;
-    height: 98%;
+    height: 300px;
     float: right;
     display: inline; }
     #main #side-story #one {
@@ -2495,63 +2497,324 @@ nav {
         font-size: 12px; }
   #main #latest-stories {
     position: relative;
-    top: 80%;
+    top: 5%;
     width: 100%;
-    height: 500px;
-    float: left;
-    background-color: yellow; }
+    height: 250px;
+    float: left; }
+    #main #latest-stories h2 {
+      color: #F42;
+      display: block;
+      margin-left: 60px; }
+      #main #latest-stories h2:hover {
+        color: black; }
     #main #latest-stories a {
       width: 20%;
-      height: 125px; }
+      height: 125px;
+      text-decoration: none;
+      color: black; }
     #main #latest-stories #first {
       position: relative;
       list-style: none;
-      display: inline; }
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/apple.jpg); }
       #main #latest-stories #first a {
-        background-repeat: no-repeat;
-        background-size: 300px 150px;
-        background-position: center center;
-        float: left;
-        margin: 20px;
-        background-image: url(../images/apple.jpg);
-        display: block; }
-      #main #latest-stories #first h4 {
-        text-align: justify;
-        width: 20%;
-        float: left; }
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #first a:hover {
+          color: #F42; }
+        #main #latest-stories #first a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #first a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
     #main #latest-stories #second {
       position: relative;
       list-style: none;
-      display: inline; }
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/Burger-King.jpg); }
       #main #latest-stories #second a {
-        background-repeat: no-repeat;
-        background-size: 300px 150px;
-        background-position: center center;
-        float: left;
-        margin: 20px;
-        background-image: url(../images/Burger-King.jpg); }
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #second a:hover {
+          color: #F42; }
+        #main #latest-stories #second a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #second a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
     #main #latest-stories #third {
       position: relative;
       list-style: none;
-      display: inline; }
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/security.jpg); }
       #main #latest-stories #third a {
-        background-repeat: no-repeat;
-        background-size: 300px 150px;
-        background-position: center center;
-        float: left;
-        margin: 20px;
-        background-image: url(../images/security.jpg); }
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #third a:hover {
+          color: #F42; }
+        #main #latest-stories #third a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #third a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
     #main #latest-stories #fourth {
       position: relative;
       list-style: none;
-      display: inline; }
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/shutterstock.jpg); }
       #main #latest-stories #fourth a {
-        background-repeat: no-repeat;
-        background-size: 300px 150px;
-        background-position: center center;
-        float: left;
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #fourth a:hover {
+          color: #F42; }
+        #main #latest-stories #fourth a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #fourth a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
+    #main #latest-stories #fifth {
+      position: relative;
+      list-style: none;
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/cloud.jpg); }
+      #main #latest-stories #fifth a {
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #fifth a:hover {
+          color: #F42; }
+        #main #latest-stories #fifth a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #fifth a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
+    #main #latest-stories #sixth {
+      position: relative;
+      list-style: none;
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/domains.jpg); }
+      #main #latest-stories #sixth a {
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #sixth a:hover {
+          color: #F42; }
+        #main #latest-stories #sixth a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #sixth a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
+    #main #latest-stories #seventh {
+      position: relative;
+      list-style: none;
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/mac.jpg); }
+      #main #latest-stories #seventh a {
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #seventh a:hover {
+          color: #F42; }
+        #main #latest-stories #seventh a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #seventh a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
+    #main #latest-stories #eighth {
+      position: relative;
+      list-style: none;
+      display: inline;
+      background-repeat: no-repeat;
+      background-size: 300px 125px;
+      background-position: center center;
+      float: left;
+      margin: 10px 20px;
+      display: block;
+      height: 200px;
+      width: 20%;
+      background-image: url(../images/jedi.png); }
+      #main #latest-stories #eighth a {
+        position: relative;
+        top: 82%; }
+        #main #latest-stories #eighth a:hover {
+          color: #F42; }
+        #main #latest-stories #eighth a h4 {
+          text-align: justify;
+          width: 20%;
+          display: inline; }
+        #main #latest-stories #eighth a span {
+          color: gray;
+          position: relative;
+          top: 0%;
+          display: block; }
+  #main #funding {
+    position: relative;
+    width: 100%;
+    top: 75%;
+    float: left;
+    margin: 20px; }
+    #main #funding header {
+      display: block; }
+      #main #funding header h2 {
+        font-weight: 700;
+        font-size: 28px; }
+        #main #funding header h2 a {
+          color: #F42;
+          text-decoration: none; }
+          #main #funding header h2 a:hover {
+            color: black; }
+      #main #funding header div a {
+        color: #F42;
+        border-right: 1px solid #F42;
+        margin-right: 23px;
+        padding-right: 23px;
+        font-size: 16px; }
+      #main #funding header div .no-border {
+        border: none; }
+
+#investments {
+  display: block;
+  margin-top: 0;
+  width: 100%; }
+  #investments div {
+    width: 20%;
+    margin-right: 15px;
+    float: left; }
+    #investments div a img {
+      position: relative;
+      top: 85px;
+      left: 0;
+      margin: 10.67px; }
+    #investments div a h4 {
+      background-color: #F42;
+      color: white;
+      padding: 10.67px 16px 10.67px 84px;
+      font-weight: 700;
+      margin: 0;
+      font-size: 18px;
+      white-space: nowrap;
+      font-family: Avalon,sans-serif;
+      text-align: center; }
+    #investments div a div h4 {
+      color: black;
+      background-color: rgba(255, 68, 34, 0.08);
+      width: 100%; }
+    #investments div a div h5 {
+      color: gray;
+      background-color: rgba(255, 68, 34, 0.08);
+      margin: 0;
+      padding: 10.67px 16px 10.67px 84px;
+      vertical-align: top;
+      width: 100%; }
+    #investments div .investment-card {
+      position: relative;
+      width: 100%;
+      background-color: #fffaf8; }
+      #investments div .investment-card a {
+        display: block;
+        color: #555;
+        margin: 5px; }
+        #investments div .investment-card a:hover {
+          color: black; }
+    #investments div .byline {
+      width: 100%;
+      border-top: 1px solid red;
+      background-color: #fffaf8;
+      height: 100px; }
+      #investments div .byline a {
         margin: 20px;
-        background-image: url(../images/shutterstock.jpg); }
+        font-size: 12px; }
+        #investments div .byline a span {
+          color: gray; }
+
+#features {
+  background-color: yellow;
+  display: block; }
+  #features div h1 {
+    color: #F42; }
+    #features div h1:hover {
+      color: black; }
 
 @media only screen and (min-width: 768px) {
   body:after {
