@@ -2500,7 +2500,8 @@ nav {
     top: 5%;
     width: 100%;
     height: 250px;
-    float: left; }
+    float: left;
+    z-index: 400; }
     #main #latest-stories h2 {
       color: #F42;
       display: block;
@@ -3006,8 +3007,193 @@ footer {
     margin: 0;
     font-size: 12px; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   nav {
-    display: none; } }
+    display: none; }
+
+  #countdown {
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 32px;
+    width: 100%; }
+    #countdown span, #countdown button, #countdown img {
+      display: none; }
+    #countdown #deadline div {
+      display: flex;
+      justify-content: center; }
+    #countdown #social-media {
+      display: none; }
+
+  #main {
+    position: absolute;
+    top: 35px;
+    height: 1250px; }
+    #main article {
+      width: 100%; }
+    #main #side-story {
+      width: 100%; }
+    #main #one {
+      width: 100%; }
+    #main #two {
+      width: 100%; }
+    #main #latest-stories {
+      display: flex;
+      flex-direction: column;
+      width: 100%; }
+      #main #latest-stories #first {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #first a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #second {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #second a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #third {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #third a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #fourth {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #fourth a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #fifth {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #fifth a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #sixth {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #sixth a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #seventh {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #seventh a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+      #main #latest-stories #eighth {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        background-size: 75px 75px;
+        background-position: left bottom;
+        margin: 0; }
+        #main #latest-stories #eighth a {
+          width: 100%;
+          display: inline;
+          float: left;
+          margin-left: 100px;
+          margin-top: -35px; }
+    #main #funding {
+      position: relative;
+      top: 120%;
+      z-index: 888; }
+      #main #funding header div {
+        display: none; }
+    #main #investments {
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
+      #main #investments div {
+        width: 100%; }
+        #main #investments div a h4 {
+          width: 100%; }
+    #main #features {
+      position: relative;
+      top: 120%;
+      display: flex;
+      flex-direction: column; }
+      #main #features div {
+        width: 100%; }
+    #main #latest-deals {
+      position: relative;
+      top: 600%; }
+      #main #latest-deals .deals {
+        flex-direction: column; }
+        #main #latest-deals .deals .primary {
+          width: 100%;
+          flex-direction: row; }
+          #main #latest-deals .deals .primary a {
+            background-size: 150px 150px;
+            background-position: left bottom; }
+          #main #latest-deals .deals .primary .price {
+            margin-left: 170px;
+            margin-top: -100px; }
+
+  footer {
+    position: relative;
+    bottom: 0; }
+
+  .container {
+    height: 1100px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
